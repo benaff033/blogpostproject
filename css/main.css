@@ -1,0 +1,88 @@
+
+
+
+@import url(medium-screen.css);
+@import url(larg-screen.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f6f6f6;
+}
+
+main {
+    display: grid;
+    width: 500px;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-gap: 3.5rem;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.post-container {
+    margin: auto;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+}
+
+.grid-img {
+    width: 100%;
+    border-radius: 6px  6px 0 0;
+}
+
+
+.grid-post {
+    font-size: 1rem;
+}
+
+.post-link {
+    color: #9c8156;
+    text-decoration: none;
+}
+.post-information {
+    padding: 2rem;
+}
+
+time {
+    text-transform: uppercase;
+    color: #9c8156;
+}
+
+.post-title a {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin: 25px 0;
+    font-weight: 400;
+    text-decoration: none;
+    color: #2b261e;
+}
+
+.post-summary {
+    font-size: 1.2rem;
+}
+
+.publisher-detail {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 25px;
+}
+.publisher-detail a {
+   text-transform: uppercase;
+    color: #9c8156;
+    text-decoration: none;
+}
+
+.social-network {
+    color: #9c8156;
+    font-size: 1.1rem;
+}
+
+i {
+    margin: 0 10px;
+}
