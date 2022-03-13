@@ -1,10 +1,16 @@
-@media (min-width: 1001px) {
-    main {
-        grid-template-columns: 2fr 1fr;
-        width: 60vw;
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
-    }
-    .post-container {
-        grid-template-columns:  1fr;
-    }
+.aside-item {
+    background-color: white;
+    padding: 0rem .5rem;
+    text-align: center;
+}
+
+h2.aside-heading {
+    border-bottom: 1px solid #9c8156;
+    text-transform: uppercase;
 }
