@@ -86,5 +86,23 @@ i {
     margin: 0 10px;
 }
 
-@import url(medium-screen.css);
-@import url(larg-screen.css);
+@media (min-width: 1001px) {
+    main {
+        grid-template-columns: 2fr 1fr;
+        width: 60vw;
+
+    }
+    .post-container {
+        grid-template-columns:  1fr;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    main {
+        width: 90vw;
+    }
+    .post-container {
+        grid-template-columns: 1fr;
+    }
+}
