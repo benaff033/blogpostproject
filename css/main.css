@@ -1,8 +1,7 @@
 
 
 
-@import url(medium-screen.css);
-@import url(larg-screen.css);
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap');
 body {
     font-family: 'Quicksand', sans-serif;
@@ -86,3 +85,6 @@ time {
 i {
     margin: 0 10px;
 }
+
+@import url(medium-screen.css);
+@import url(larg-screen.css);
