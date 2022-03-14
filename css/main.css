@@ -45,7 +45,7 @@ main {
 @media (min-width: 1001px) {
     main {
         grid-template-columns: 2fr 1fr;
-        width: 60vw;
+        width: 80%;
 
     }
     .post-container {
